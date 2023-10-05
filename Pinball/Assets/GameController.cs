@@ -8,11 +8,11 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ( Input.GetKeydown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow) ) {
+        if ( Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow) ) {
 
         }
 
-        if ( Input.GetKeydown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow) ) {
+        if ( Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow) ) {
             
         }
     }
