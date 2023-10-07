@@ -1243,6 +1243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftPaddleAnimator: {fileID: 1809948093}
   rightPaddleAnimator: {fileID: 496156496}
+  scoreText: {fileID: 908674138}
 --- !u!4 &1421718916
 Transform:
   m_ObjectHideFlags: 0
