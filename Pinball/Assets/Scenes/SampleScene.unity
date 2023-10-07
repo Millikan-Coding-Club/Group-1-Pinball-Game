@@ -1089,7 +1089,7 @@ GameObject:
   - component: {fileID: 1227330620}
   - component: {fileID: 1227330619}
   - component: {fileID: 1227330622}
-  - component: {fileID: 1227330621}
+  - component: {fileID: 1227330623}
   m_Layer: 0
   m_Name: bumper
   m_TagString: Untagged
@@ -1164,18 +1164,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1227330621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1227330618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e662f56376af21408aad38a3f0dbbfd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1227330622
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1211,6 +1199,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.75
+--- !u!114 &1227330623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227330618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e662f56376af21408aad38a3f0dbbfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameController: {fileID: 1421718915}
 --- !u!1 &1421718914
 GameObject:
   m_ObjectHideFlags: 0
@@ -1426,6 +1427,7 @@ GameObject:
   - component: {fileID: 1723894135}
   - component: {fileID: 1723894134}
   - component: {fileID: 1723894136}
+  - component: {fileID: 1723894137}
   m_Layer: 0
   m_Name: bumper (1)
   m_TagString: Untagged
@@ -1535,6 +1537,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.75
+--- !u!114 &1723894137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723894133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e662f56376af21408aad38a3f0dbbfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameController: {fileID: 1421718915}
 --- !u!1 &1794869771
 GameObject:
   m_ObjectHideFlags: 0
