@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {   
     public Animator leftPaddleAnimator;
     public Animator rightPaddleAnimator;
-    private Text scoreText;
+    public TextMeshProUGUI scoreText;
 
     private int score = 0;
     // Update is called once per frame
